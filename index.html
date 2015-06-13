@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="/css/style.css">
+	<title>Data Visualization Final Project</title>
+</head>
+<body>
+	<!-- <svg id="chart">Test</svg> -->
+	<h1>Chicago Crime and Goodhart's Law</h1>
+	<script type="text/javascript" src="js/main.js"></script>
+	<div id="explanation">
+		<p>This graphic shows trends for reported incidents of crime in Chicago from 2001 to 2010, as well as information on the Chicago Police Department's personnel count for the same time period. Each data point in the graphic represents the deviation of a particular category's annual mean from the mean for the entire decade. The annual means are computed from <em>reported incidents</em>, which are based on preliminary information; some of these incidents were later reclassified, and not all were ultimately classified as crimes. 
+		</p>
+		<p>The incident data are extracted from the Chicago Police Department's CLEAR system and made available via the 
+		<a href="http://data.cityofchicago.org">Chicago Data Portal</a>. Personnel information comes from the CPD's 
+		<a href="https://portal.chicagopolice.org/portal/page/portal/ClearPath/News/Statistical%20Reports/Annual%20Reports">Annual Reports</a>. 
+		</p>
+		<p>From the graphic, it would seem that the total number of incidents decreased steadily over the course of the decade, even for high-profile categories like arson and homicide, which feel from 667 in 2001 to 438 in 2010. Yet, during the same time period, the number of police officers dwindled, from 16,742 in 2001 to 13,857 in 2010, and the number of arrests, after a plateau in the first half of the decade, fell dramatically in the second half of the decade, from a high of 289,308 in 2004 to a low of 200,720 in 2010. How did a shrinking police force manage to make incident rates fall so dramatically? How did it accomplish this feat while making fewer arrests?
+		</p>
+		<p>Part of the answer may lie in how the data were collected. According to a <a href="http://www.chicagomag.com/Chicago-Magazine/May-2014/Chicago-crime-rates/">series of articles in Chicago Magazine</a>, the CPD has been employing a number of tactics to improve their numbers, such as reclassifying violent incidents to lower-grade offenses, labeling incidents committed on interstates as state crimes rather than city crimes, and delaying official charges until the following reporting period.  
+		</p>
+		<p>These reports make the trends presented in the graphic highly suspect and call to mind <a href="https://en.wikipedia.org/wiki/Goodhart's_law">Goodhart's Law</a>: "When a measure becomes a target, it ceases to be a good measure." 
+		</p>
+		<p><em>Hover over any of the data points for precise information on a given year.</em></p>
+		<p>
+		</p>
+		<p id="sources">
+			Sources: <a href="http://data.cityofchicago.org">data.cityofchicago.org</a>, 
+			<a href="https://portal.chicagopolice.org/portal/page/portal/ClearPath/News/Statistical%20Reports/Annual%20Reports">CPD Annual Reports</a>.
+		</p>
+	</div>
+</body>
+</html>
