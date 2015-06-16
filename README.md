@@ -1,7 +1,7 @@
 Chicago Crime and Goodhart's Law
 =================================
 
-Herewith, a brief example of "damned lies and statistics," based on work by [Chicago Magazine](http://www.chicagomag.com/Chicago-Magazine/May-2014/Chicago-crime-rates/).  Data munged with Python and visualized with d3.js and friends. 
+Herewith, a brief example of "lies, damned lies, and statistics," based on work by [Chicago Magazine](http://www.chicagomag.com/Chicago-Magazine/May-2014/Chicago-crime-rates/).  Data munged with Python and visualized with d3.js and friends. 
 
 Running
 -------
