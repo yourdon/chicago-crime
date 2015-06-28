@@ -1,10 +1,14 @@
 Chicago Crime and Goodhart's Law
 =================================
 
-Herewith, a brief example of "lies, damned lies, and statistics," based on work by [Chicago Magazine](http://www.chicagomag.com/Chicago-Magazine/May-2014/Chicago-crime-rates/).  Data munged with Python and visualized with d3.js and friends. 
+We present a brief example of "lies, damned lies, and statistics," based on work by [Chicago Magazine](http://www.chicagomag.com/Chicago-Magazine/May-2014/Chicago-crime-rates/).  Data munged with Python and visualized with d3.js and friends. 
 
 Running
 -------
+
+You can view this file online [here](https://cdn.rawgit.com/yourdon/chicago-crime/22c9cea01c1448264d369308359f7145f13b60f4/index.html).
+
+Alternatively, to view it locally:
 
 1. Download the repo, and navigate to the main directory. 
 2. From this directory, type: `python -m SimpleHTTPServer 8000`
